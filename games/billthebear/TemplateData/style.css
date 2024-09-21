@@ -59,8 +59,11 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
+<<<<<<< HEAD
   top: 40%;
   left: 45%;
+=======
+>>>>>>> aa8d6beb715e17759f4ef0b66bc52bbfb035fc16
 }
 
 #unity-logo {
