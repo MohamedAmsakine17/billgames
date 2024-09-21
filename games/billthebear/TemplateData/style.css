@@ -56,15 +56,17 @@ body {
   height: 100%;
 }
 #unity-loading-bar {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  display: none;
+  top: 40%;
+  left: 45%;
 }
 
 #unity-logo {
   width: 154px;
   height: 130px;
   background: url("unity-logo-dark.png") no-repeat center;
-  display: none;
 }
 #unity-progress-bar-empty {
   width: 141px;
@@ -72,14 +74,12 @@ body {
   margin-top: 10px;
   margin-left: 6.5px;
   background: url("progress-bar-empty-dark.png") no-repeat center;
-  display: none;
 }
 #unity-progress-bar-full {
   width: 0%;
   height: 18px;
   margin-top: 10px;
   background: url("progress-bar-full-dark.png") no-repeat center;
-  display: none;
 }
 #unity-footer {
   width: 960px;
