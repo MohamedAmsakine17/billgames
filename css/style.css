@@ -142,14 +142,15 @@ h2 {
 
 .games {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   width: 100%;
   height: 90%;
+  margin-top: 20px;
 }
 
 .game {
-  width: 20%;
+  width: 16%;
   height: 60%;
   margin: 0 10px;
   background-color: #34287688;
@@ -374,14 +375,23 @@ h2 {
     height: fit-content;
   }
 
-  #comming-soon-2 {
+/*   #comming-soon-2 {
     display: none;
+  } */
+
+  .games {
+    flex-direction: column;
+    margin-top: 40px;
   }
 
   .game {
-    width: 45%;
-    height: 60%;
-    margin: 0 2%;
+    width: 90%;
+    height: 260px;
+    margin: 15px 2%;
+  }
+
+  body {
+    height: fit-content;
   }
 }
 
