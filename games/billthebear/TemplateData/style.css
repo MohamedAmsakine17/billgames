@@ -1,31 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@font-face {
+  font-family: "Menco_Black";
+  src: url("../../../fonts/fonnts.com-Menco_Black.otf") format("truetype");
+}
 
 body {
   padding: 0;
   margin: 0;
-  background-color: #211951;
+  background-color: #597cff;
   color: #f0f3ff;
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+  font-family: Menco_Black;
   font-weight: 500;
-  height: 100%;
+  height: fit-content;
 }
 
 .nav {
-  height: 8%;
+  height: 50px;
   width: 100%;
   font-size: 30px;
   font-weight: 800;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #15f5ba;
-  background-color: #342876;
+  padding: 20px 0;
+  position: relative;
+  background-color: #97d9f3;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-  text-decoration: none;
-  padding: 18.015px 0;
+}
+
+.nav img {
+  width: 400px;
 }
 
 .game-container {
@@ -84,7 +90,7 @@ body {
 #unity-footer {
   width: 960px;
   height: fit-content;
-  background-color: #342876;
+  background-color: #97d9f3;
   padding: 10px 0;
 }
 .unity-mobile #unity-footer {
@@ -113,11 +119,11 @@ body {
   margin-left: auto;
   margin-right: 20px;
   cursor: pointer;
-  color: #161136;
+  color: #597cff;
 }
 
 #unity-fullscreen-button:hover {
-  color: #15f5ba;
+  color: #3855c1;
 }
 
 #unity-warning {
@@ -137,11 +143,14 @@ body {
 }
 
 .about-game h2 {
-  font-size: 27px;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  color: #ffd200;
 }
 
 .info-type {
-  color: #836fff;
+  color: #97d9f3;
+  font-size: 20px;
 }
 
 .game-information {
@@ -156,11 +165,12 @@ body {
 
 .text-about {
   margin-top: 20px;
+  font-size: 20px;
 }
 
 hr {
   border: 0;
-  border-top: 1px solid #836fff;
+  border-top: 1px solid #97d9f3;
 }
 
 @media only screen and (max-width: 600px) {
