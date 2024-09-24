@@ -41,14 +41,14 @@ header,
 }
 
 header {
-  margin: 58px auto 25px;
+  margin: 58px auto 40px;
   width: fit-content;
   border-radius: 30px;
   overflow: hidden;
 }
 
 .game-img {
-  height: 500px;
+  height: 700px;
   width: 1200px;
   background-image: url("../imgs/billthebear.png");
   background-position: top;
@@ -71,7 +71,7 @@ header {
 }
 
 .game-about h3 {
-  font-size: 45px;
+  font-size: 60px;
   color: #ffd200;
   padding-left: 20px;
   font-weight: 800;
@@ -85,7 +85,7 @@ header {
   color: #293975;
   padding-left: 20px;
   margin-bottom: 60px;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .game-about a {
@@ -96,7 +96,7 @@ header {
   font-weight: 900;
   margin-left: 20px;
   box-shadow: rgba(89, 124, 255, 1) 7px 7px;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .game-about a:hover {
@@ -162,17 +162,17 @@ h2 {
 
 .games {
   display: flex;
-  justify-content: start;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 90%;
-  margin-top: 20px;
+  margin-top: 60px;
+  padding-bottom: 30px;
 }
 
 .game {
-  width: 20%;
-  height: 60%;
+  width: 35%;
+  height: 90%;
   margin: 0 10px;
   background-color: #4261d1;
   border-radius: 30px;
@@ -272,9 +272,7 @@ h2 {
   }
 
   .game {
-    width: 20%;
-    height: 60%;
-    margin: 0 0.5%;
+    width: 28%;
   }
 }
 
@@ -294,13 +292,13 @@ h2 {
   }
 
   .game-about h3 {
-    font-size: 32px;
+    font-size: 50px;
     margin: 10px 0;
   }
 
   .game-about p {
     margin-bottom: 30px;
-    font-size: 17px;
+    font-size: 22px;
   }
 
   .comming-games {
@@ -309,8 +307,8 @@ h2 {
 
   .game {
     width: 30%;
-    height: 60%;
     margin: 0 2%;
+    height: 70%;
   }
 
   #comming-soon-3,
@@ -324,6 +322,7 @@ h2 {
 
   .game-img {
     width: 100%;
+    height: 600px;
   }
 
   .back-button {
@@ -343,7 +342,7 @@ h2 {
 
   .game {
     width: 34%;
-    height: 50%;
+    height: 60%;
     margin: 0 2%;
   }
 
@@ -358,6 +357,27 @@ h2 {
   }
   .nav img {
     width: 300px;
+  }
+
+  .game-img {
+    height: 400px;
+  }
+
+  .game-about {
+    margin-right: 20px;
+    width: 40%;
+  }
+
+  .game-about p {
+    font-size: 20px;
+  }
+  .game-about a {
+    font-size: 24px;
+  }
+
+  .games {
+    margin-top: 40px;
+    padding-bottom: 0;
   }
 }
 
